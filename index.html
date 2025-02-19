@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PHP Вiдео - Ваш любимый видеохостинг</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">PHP Вiдео</div>
+            <form class="search-form" action="search.html" method="get">
+                <input type="search" name="q" placeholder="Поиск видео..." required>
+                <button type="submit">Поиск</button>
+            </form>
+            <ul>
+                <li><a href="index.html" class="active">Главная</a></li>
+                <li><a href="#">Категории</a></li>
+                <li><a href="#">Загрузить</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="featured-movies">
+            <h2>Популярные фильмы</h2>
+            <div class="movie-grid">
+                <div class="movie-card">
+                    <img src="/placeholder.svg?height=300&width=200" alt="Постер фильма 1">
+                    <div class="movie-info">
+                        <h3>Название фильма 1</h3>
+                        <div class="rating">
+                            <span class="star">★</span>
+                            <span>8.5</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="movie-card">
+                    <img src="/placeholder.svg?height=300&width=200" alt="Постер фильма 2">
+                    <div class="movie-info">
+                        <h3>Название фильма 2</h3>
+                        <div class="rating">
+                            <span class="star">★</span>
+                            <span>7.9</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="movie-card">
+                    <img src="/placeholder.svg?height=300&width=200" alt="Постер фильма 3">
+                    <div class="movie-info">
+                        <h3>Название фильма 3</h3>
+                        <div class="rating">
+                            <span class="star">★</span>
+                            <span>8.2</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="movie-card">
+                    <img src="/placeholder.svg?height=300&width=200" alt="Постер фильма 4">
+                    <div class="movie-info">
+                        <h3>Название фильма 4</h3>
+                        <div class="rating">
+                            <span class="star">★</span>
+                            <span>7.6</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="movie-card">
+                    <img src="/placeholder.svg?height=300&width=200" alt="Постер фильма 5">
+                    <div class="movie-info">
+                        <h3>Название фильма 5</h3>
+                        <div class="rating">
+                            <span class="star">★</span>
+                            <span>8.7</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="movie-card">
+                    <img src="/placeholder.svg?height=300&width=200" alt="Постер фильма 6">
+                    <div class="movie-info">
+                        <h3>Название фильма 6</h3>
+                        <div class="rating">
+                            <span class="star">★</span>
+                            <span>8.0</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="video-player">
+            <video controls>
+                <source src="https://example.com/video.mp4" type="video/mp4">
+                Ваш браузер не поддерживает видео тег.
+            </video>
+            <h1>Название видео</h1>
+            <p class="video-description">Описание видео. Здесь может быть краткая информация о содержании видео, его авторе или контексте.</p>
+        </section>
+
+        <section class="recommended-videos">
+            <h2>Рекомендованные видео</h2>
+            <div class="video-grid">
+                <div class="video-card">
+                    <img src="/placeholder.svg?height=120&width=200" alt="Превью видео 1">
+                    <h3>Название видео 1</h3>
+                    <p>Автор видео 1</p>
+                </div>
+                <div class="video-card">
+                    <img src="/placeholder.svg?height=120&width=200" alt="Превью видео 2">
+                    <h3>Название видео 2</h3>
+                    <p>Автор видео 2</p>
+                </div>
+                <div class="video-card">
+                    <img src="/placeholder.svg?height=120&width=200" alt="Превью видео 3">
+                    <h3>Название видео 3</h3>
+                    <p>Автор видео 3</p>
+                </div>
+                <div class="video-card">
+                    <img src="/placeholder.svg?height=120&width=200" alt="Превью видео 4">
+                    <h3>Название видео 4</h3>
+                    <p>Автор видео 4</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 PHP Вiдео. Все права защищены.</p>
+    </footer>
+</body>
+</html>
+
